@@ -9,7 +9,7 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 export function fetchWeather(city) {
 	const url = `${ROOT_URL}&q=${city},ca`;
 	// Ajax request returns a promise
-	const request = axois.get(url);
+	const request = axios.get(url);
 
 	return {
 		type: FETCH_WEATHER,
