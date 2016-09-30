@@ -8,3 +8,7 @@ td, th {
 .table thead th {
 	width: 25%;
 }
+td:first-of-type {
+	height: 200px;
+	width: 250px;
+}
